@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    <header class="sticky">
+        <nav class="navbar flex align-center">
+            <div class="logo-div flex align-center justify-center">
+                <img src="assets/images/logo.jpg" alt="S-Logo">
+            </div>
+            <div class="nav-list-div">
+                <ul class="flex align-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main  id="home">
+        <div class="hero flex">
+            <section class="main-left ">
+                <p>Hello, Myself <span class="darker">Sumit</span></p>
+                <p>I am a</p>
+                <span id="element"></span>
+                <p>This is My Portfolio Website</p>
+            </section>
+            <section class="main-right flex align-center justify-center">
+                <img id="onlaugh" src="assets/images/hero-img.jpg.png" alt="">
+            </section>
+        </div>
+        <div id="about" class="grid">
+            <section class="left-about">
+                <h2>Myself</h2>
+                <p>porro sociosqu duis electram habitasse ocurreret natoque duo tortor vocibus reprimique postea massa theophrastus adversarium duis unum quod voluptatibus purus volumus himenaeos mus ridens cu metus inimicus ante euismod gubergren</p>
+            </section>
+            <section class="mid-about">
+                <h2>Hobbies</h2>
+                <p>porro sociosqu duis electram habitasse ocurreret natoque duo tortor vocibus reprimique postea massa theophrastus adversarium duis unum quod voluptatibus purus volumus himenaeos mus ridens cu metus inimicus ante euismod gubergren</p>
+            </section>
+            <section class="right-anout">
+                <h2>Friends</h2>
+                <p>porro sociosqu duis electram habitasse ocurreret natoque duo tortor vocibus reprimique postea massa theophrastus adversarium duis unum quod voluptatibus purus volumus himenaeos mus ridens cu metus inimicus ante euismod gubergren</p>
+            </section>
+        </div>
+        <div id="feedback" class="collection">
+            <div class="swiper mySwiper white">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/400" alt="">
+                        <h3>John Doe</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Amazing experience working with Sumit.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/404" alt="">
+                        <h3>Jane Smith</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Sumit is a talented developer!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/403" alt="">
+                        <h3>Mark Lee</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Highly recommend his work.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/402" alt="">
+                        <h3>John Doe</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Amazing experience working with Sumit.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/401" alt="">
+                        <h3>Jane Smith</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Sumit is a talented developer!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/400/410" alt="">
+                        <h3>Mark Lee</h3>
+                        <div class="yellow">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Highly recommend his work.</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+                     <!-- If we need navigation buttons --> 
+                     <div class="swiper-button-prev border"></div> 
+                     <div class="swiper-button-next border"></div>
+            </div>
+            <div class="flex rate">
+            <div class="s-rate">
+                <h2>4/5</h2>
+                <i class="fa-solid fa-star yellow"></i>
+                <i class="fa-solid fa-star yellow"></i>
+                <i class="fa-solid fa-star yellow"></i>
+                <i class="fa-solid fa-star yellow"></i>
+                <i class="fa-solid fa-star white"></i>
+                <p>6 reviews</p>
+            </div>
+            <div class="give-rate flex align-center justify-center">
+                <span>How was my service?</span>
+                <div class="rate-stars-div">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="change">Rate Me</p>
+                <textarea rows="7" cols="25" class="sug" placeholder="Describe your suggestions....."></textarea>
+               <button class="sub-btn">Submit</button>
+            </div>
+        </div>
+        </div>
+        
+        </div>
+        <div id="contact">
+            <div class="con flex">
+                <div class="left-contact">
+                    <div>
+                        <h3>Get In Touch</h3>
+                        <p>Please fill the following details :</p>
+                    </div>
+                    <div>
+                        <form class="flex">
+                            <input type="text" placeholder="Enter your name...">
+                            <input type="email" placeholder="Enter your email ID...">
+                            <textarea rows="7" cols="25" placeholder="Enter your message..."></textarea>
+                            <input type="submit" class="purple">
+                        </form>
+                    </div>
+                </div>
+                <div class="right-contact">
+                    <div>
+                        <img src="assets/images/contact.png" alt="">
+                    </div>
+                    <div class="con-details">
+                        <div><i class="fa-solid fa-location-dot"></i><span> H.No 69, Buddhi Vihar, Moradabad</span></div>
+                        <div><i class="fa-solid fa-phone"></i><span> +91 9876543210</span></div>
+                        <div><i class="fa-solid fa-envelope"></i><span> sumitsanjan@gmail.com</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex align-center">
+        <div class="left-footer">
+            <img src="assets/images/logo.jpg" alt="">
+            <p>Thank You very much for visiting my website.</p>
+            <div class="brands">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="right-footer flex">
+            <div>
+                <h4>Friends</h4>
+                <span>Om Pratap</span>
+                <span>Daksh Singh Malhi</span>
+                <span>Abudhya Gupta</span>
+                <span>Anubhav Singh</span>
+                <span>Krishna Sharma</span>
+                <span>Siddharth Singh</span>
+                <span>Aryan (Varanasi)</span>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <span>Frontend Developer</span>
+                <span>UI/UX Designer</span>
+                <span>Physics</span>
+                <span>Mathematics</span>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="copy"><p>&copy; Copyright 2024 Guava. All rights reserved.</p></div>
+    <audio id="laugh" src="assets/audio/laugh.mp3"></audio>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="javascript/script.js"></script>
+    
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'School Student', 'Front Bencher', 'UI Designer'],
+      typeSpeed: 90,
+      loop: true,
+      backdelay: 30,
+      backSpeed: 50,
+    });
+  </script>
+</body>
+</html>
