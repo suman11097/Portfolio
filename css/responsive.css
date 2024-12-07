@@ -1,0 +1,13 @@
+@media only screen and (max-width: 828px){
+    #about{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 90vh;
+        grid-row-gap: 20px;
+    }
+    .left-footer{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+}
